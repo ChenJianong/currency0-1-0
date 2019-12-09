@@ -7,7 +7,7 @@ body {
 }
 
 .header{
-    background-color:#deab1e;
+    background-color:#e0c56e;
    font-size: 2.5em;
   height: 1.5em;
   padding: 0.1em;
@@ -17,15 +17,22 @@ body {
 }
 
 
-#addDialogContainer > *{
+#addDialogContainer, #addDialogContainer2 > *{
     text-align:center;
   padding: 1em;
   border-style:solid;
-  border-color:#deab1e;
+  border-color:#e0c56e;
   margin: 3em;
-  height: 11em;
   font-size:1.5em;
   }
+
+#selectCurrency, #selectCurrency1{
+  display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+}
 
 #Exchangerate {
    padding:0.1em;
@@ -33,23 +40,60 @@ body {
   
 }
 
+#input, #input1{
+  display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+  background-color: white;
+}
+
 .dialog-buttons > #output{
   padding:0.8em;
   font-size: 0.8em;
 }
-
-#addDialogContainer2 > *{
-    text-align:center;
-  padding: 1em;
-  border-style:solid;
-  border-color:#deab1e;
-  margin: 3em;
-  height: 11em;
-  font-size:1.5em;
-  }
 
 .dialog-buttons1 > #output1{
   padding:0.8em;
   font-size: 0.8em;
 }
 
+.dialog-buttons > #butDialogAdd{
+  border-color: #e0c56e;
+  margin: 0.5em;
+  padding:0.5em;
+  font-size: 0.8em;
+  cursor: pointer;
+  background-color:white;
+  transition: all .35s ease-Out;
+}
+
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  transition: all .35s ease-Out;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+}
+
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  color: #2D3142;
+}

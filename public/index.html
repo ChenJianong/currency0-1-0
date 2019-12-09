@@ -4,15 +4,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currency</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A currency app">
+     <link rel="manifest" href="/manifest.json"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Weather PWA">
+  <meta name="theme-color" content="#2F3BA2" />
+  <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link
       rel="icon"
-      href="https://cdn.glitch.com/a8fc2a76-fbc1-42a8-99b7-40b37fad895b%2Ffavicon.png?v=1573770378613"
+      href="images/icon.png"
       type="image/x-icon"
-    />
+   />
   </head>
   <body>
     <div class="grid-container" onload="changeCurrency()">
@@ -46,12 +55,16 @@
               <option value="18">Korean Won KRW</option>
             </select>
           </div>
+          <div class="dialog-buttons" id="button-2">
+           <div id="slide"></div>
+           <a href="#">Let's Go!</a>
+          </div>
           <div class="dialog-buttons">
             <button id="butDialogAdd" class="button" onclick="changeCurrency()">
               Choose</button
             ><br />
             <pre id="Exchangerate"></pre>
-            <input type="text" id="input" /><br />
+            <input type="text" id="input" name="input"/><br />
             <button onclick="calcAmount()">
               Exchange
             </button>
@@ -89,7 +102,7 @@
               Choose</button
             ><br />
             <pre id="Exchangerate1"></pre>
-            <input type="text" id="input1" /><br />
+            <input type="text" id="input1" name="input1"/><br />
             <button onclick="calcAmount1()">
               Exchange
             </button>
