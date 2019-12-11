@@ -69,31 +69,34 @@ body {
   transition: all .35s ease-Out;
 }
 
-#button-2 {
-  position: relative;
-  overflow: hidden;
+.dialog-buttons > #exchange{
+  border-color: #e0c56e;
+  margin: 0.5em;
+  padding:0.5em;
+  font-size: 0.8em;
   cursor: pointer;
-}
-
-#button-2 a {
-  position: relative;
+  background-color:white;
   transition: all .35s ease-Out;
 }
 
-#slide {
-  width: 100%;
-  height: 100%;
-  left: -200px;
-  background: #BFC0C0;
-  position: absolute;
+
+.dialog-buttons1 > #butDialogAdd1{
+  border-color: #e0c56e;
+  margin: 0.5em;
+  padding:0.5em;
+  font-size: 0.8em;
+  cursor: pointer;
+  background-color:white;
   transition: all .35s ease-Out;
-  bottom: 0;
 }
 
-#button-2:hover #slide {
-  left: 0;
+.dialog-buttons1 > #exchange1{
+  border-color: #e0c56e;
+  margin: 0.5em;
+  padding:0.5em;
+  font-size: 0.8em;
+  cursor: pointer;
+  background-color:white;
+  transition: all .35s ease-Out;
 }
 
-#button-2:hover a {
-  color: #2D3142;
-}

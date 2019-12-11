@@ -61,7 +61,7 @@
             ><br />
             <pre id="Exchangerate"></pre>
              <input type="text" id="input" aria-label="Exchange" /><br /> 
-            <button onclick="calcAmount()">
+            <button id="exchange" onclick="calcAmount()">
               Exchange
             </button>
             <div id="output"></div>
@@ -75,7 +75,7 @@
           <div class="dialog-body">
             <select
               id="selectCurrency1"
-              aria-label="Select Currency to Exchange from USD"
+              aria-label="Exchange 1"
             >
               <option value="1">Hong Kong Dollar HKD</option>
               <option value="2">Icelandic Króna ISK</option>
@@ -106,7 +106,7 @@
             ><br />
             <pre id="Exchangerate1"></pre>
             <input type="text" id="input1" aria-label="Exchange1" /><br />
-            <button onclick="calcAmount1()">
+            <button id="exchange1" onclick="calcAmount1()">
               Exchange
             </button>
             <div id="output1"></div>
