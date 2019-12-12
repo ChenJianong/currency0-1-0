@@ -1,7 +1,27 @@
 "use strict"; //forces all errors, helps write cleaner code
 
 // CODELAB: Add list of files to cache here.
-const FILES_TO_CACHE = ["/offline.html"];
+const FILES_TO_CACHE = [ '/',
+  '/index.html',
+  '/client.js',
+  '/style.css',
+  '/images/add.svg',
+  '/images/clear-day.svg',
+  '/images/clear-night.svg',
+  '/images/cloudy.svg',
+  '/images/fog.svg',
+  '/images/hail.svg',
+  '/images/install.svg',
+  '/images/partly-cloudy-day.svg',
+  '/images/partly-cloudy-night.svg',
+  '/images/rain.svg',
+  '/images/refresh.svg',
+  '/images/sleet.svg',
+  '/images/snow.svg',
+  '/images/thunderstorm.svg',
+  '/images/tornado.svg',
+  '/images/wind.svg',
+    ];
 
 const CACHE_NAME = "static-cache-v6";
 /* Adds an install event to the page that caches offline resources. */
