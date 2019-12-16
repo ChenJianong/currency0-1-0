@@ -13,6 +13,7 @@ const FILES_TO_CACHE = [ '/',
     ];
 
 const CACHE_NAME = "static-cache-v6";
+const DATA_CACHE_NAME = 'data-cache-v1';
 /* Adds an install event to the page that caches offline resources. */
 self.addEventListener("install", evt => {
   console.log("[ServiceWorker] Install");
