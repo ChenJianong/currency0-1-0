@@ -12,8 +12,8 @@ const FILES_TO_CACHE = [ '/',
   '/images/icon96x96.png',
     ];
 
-const CACHE_NAME = "static-cache-v1";
-const DATA_CACHE_NAME = 'data-cache-v1';
+const CACHE_NAME = "static-cache-v2";
+const DATA_CACHE_NAME = 'data-cache-v4';
 /* Adds an install event to the page that caches offline resources. */
 self.addEventListener("install", evt => {
   console.log("[ServiceWorker] Install");
@@ -53,7 +53,7 @@ self.addEventListener('activate', (evt)=> {
 
 self.addEventListener('fetch', (evt)=> {
   console.log('[ServiceWorker] Fetch', evt.request.url);
-  if (evt.request.url.includes('/')) {
+  if (evt.request.url.includes('/api')) {
   console.log("[Service Worker] Fetch (data)", evt.request.url);
   evt.respondWith(
       caches.open(DATA_CACHE_NAME).then((cache) => {
