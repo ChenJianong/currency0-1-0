@@ -7,13 +7,14 @@ body {
 }
 
 .header{
-    background-color:#13156a;
+    background-color:#02075d;
    font-size: 2.5em;
   height: 1.5em;
   padding: 0.1em;
   display:grid;
   justify-items:center;  
   align-items:center;  
+  color:white;
 }
 
 
@@ -21,7 +22,7 @@ body {
     text-align:center;
   padding: 1em;
   border-style:solid;
-  border-color:#13156a;
+  border-color:#02075d;
   margin: 3em;
   font-size:1.5em;
   }
@@ -64,7 +65,7 @@ body {
    display: inline-block;
     padding: .75rem 1.25rem;
     border-radius: 10rem;
-  border-color: #e0c56e;
+  border-color: #02075d;
   margin: 0.5em;
   font-size: 0.8em;
   cursor: pointer;
@@ -80,7 +81,7 @@ body {
     display: inline-block;
     padding: .75rem 1.25rem;
     border-radius: 10rem;
-  border-color: #e0c56e;
+  border-color: #02075d;
   margin: 0.5em;
   font-size: 0.8em;
   cursor: pointer;
