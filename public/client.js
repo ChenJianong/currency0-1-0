@@ -59,7 +59,6 @@ function changeCurrency() {
   const select = document.getElementById("selectCurrency");
   const selected = select.options[select.selectedIndex];
   const geo = selected.value;
-
   updateData(geo);
 }
 
