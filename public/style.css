@@ -19,11 +19,10 @@ body {
 
 
 #addDialogContainer, #addDialogContainer2 > *{
-      display: inline-block;
-    padding: .75rem 1.25rem;
-    border-radius: auto rem;
+    text-align:center;
+  padding: 1em;
   border-style:solid;
-  border-color:#26C456;
+  border-color:#C6BD3E;
   margin: 3em;
   font-size:1.5em;
   }
@@ -73,7 +72,7 @@ body {
     display: inline-block;
     padding: .75rem 1.25rem;
     border-radius: 10rem;
-  border-color: #26C456;
+  border-color: #C6BD3E;
   margin: 0.5em;
   font-size: 0.8em;
   cursor: pointer;
