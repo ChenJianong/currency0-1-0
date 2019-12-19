@@ -7,7 +7,7 @@ body {
 }
 
 .header{
-    background-color:#2666C9;
+    background-color:#219D47;
    font-size: 2.5em;
   height: 1.5em;
   padding: 0.1em;
@@ -19,9 +19,10 @@ body {
 
 #addDialogContainer, #addDialogContainer2 > *{
     text-align:center;
-  padding: 1em;
+  padding: .50rem 1.25rem;
+    border-radius: 12rem;
   border-style:solid;
-  border-color:#C6BD3E;
+  border-color:#25D159;
   margin: 3em;
   font-size:1.5em;
   }
@@ -71,7 +72,7 @@ body {
     display: inline-block;
     padding: .75rem 1.25rem;
     border-radius: 10rem;
-  border-color: #C6BD3E;
+  border-color: #25D159;
   margin: 0.5em;
   font-size: 0.8em;
   cursor: pointer;
