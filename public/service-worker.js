@@ -4,6 +4,7 @@
 const FILES_TO_CACHE = [ '/',
   '/index.html',
   '/client.js',
+  '/'
   '/style.css',
   '/images/icon.png',
   '/images/icon144x145.png',
@@ -12,8 +13,8 @@ const FILES_TO_CACHE = [ '/',
   '/images/icon96x96.png',
     ];
 
-const CACHE_NAME = "static-cache-v2";
-const DATA_CACHE_NAME = 'data-cache-v4';
+const CACHE_NAME = "static-cache-v3";
+const DATA_CACHE_NAME = 'data-cache-v5';
 /* Adds an install event to the page that caches offline resources. */
 self.addEventListener("install", evt => {
   console.log("[ServiceWorker] Install");
