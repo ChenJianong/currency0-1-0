@@ -17,6 +17,10 @@ body {
   color:white;
 }
 
+..header #butInstall {
+  background: url(/images/install.svg) center center no-repeat;
+}
+
 
 #addDialogContainer, #addDialogContainer2 > *{
     text-align:center;
