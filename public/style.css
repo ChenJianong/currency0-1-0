@@ -9,7 +9,7 @@ body {
 .header{
     background-color:#219D47;
    font-size: 2.5em;
-  height: 1.5em;
+  height: 2em;
   padding: 0.1em;
   display:grid;
   justify-items:center;  
@@ -17,7 +17,21 @@ body {
   color:white;
 }
 
-..header #butInstall {
+/* Buttons for install*/
+.header button {
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  margin-right: 16px;
+  opacity: 0.54;
+  outline: none;
+  overflow: hidden;
+  text-indent: -30000px;
+  transition: opacity 0.333s cubic-bezier(0, 0, 0.21, 1);
+  width: 24px;
+}
+
+.header #butInstall {
   background: url(/images/install.svg) center center no-repeat;
 }
 
